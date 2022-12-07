@@ -1,7 +1,6 @@
 import React from "react";
 
 function Project({ projects }) {
-    projects.map((project) => console.log(project.imagePath))
     return (
         <div className="container-fluid row justify-content-evenly">
             <h1 style={{ textAlign: 'center', marginBottom: '5%', fontSize: '60px'}}>My Projects!</h1>
