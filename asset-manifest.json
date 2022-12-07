@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/challenge20-React-Portfolio/static/css/main.c2cab247.css",
+    "main.js": "/challenge20-React-Portfolio/static/js/main.d9c48a31.js",
+    "index.html": "/challenge20-React-Portfolio/index.html",
+    "main.c2cab247.css.map": "/challenge20-React-Portfolio/static/css/main.c2cab247.css.map",
+    "main.d9c48a31.js.map": "/challenge20-React-Portfolio/static/js/main.d9c48a31.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2cab247.css",
+    "static/js/main.d9c48a31.js"
+  ]
+}
