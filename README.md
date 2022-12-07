@@ -1,6 +1,6 @@
 # REACT PORTFOLIO
 
-![Screenshot of application](./images/screenshot.PNG)
+![Screenshot of application](./src/images/screenshot.PNG)
 
 This is a react portfolio app.
 
