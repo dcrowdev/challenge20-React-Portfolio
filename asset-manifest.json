@@ -1,13 +1,17 @@
 {
   "files": {
     "main.css": "/challenge20-React-Portfolio/static/css/main.c2cab247.css",
-    "main.js": "/challenge20-React-Portfolio/static/js/main.d9c48a31.js",
+    "main.js": "/challenge20-React-Portfolio/static/js/main.e7fcd30a.js",
+    "static/media/shocase.PNG": "/challenge20-React-Portfolio/static/media/shocase.e5b3a20671e6b1342a81.PNG",
+    "static/media/gamehub.PNG": "/challenge20-React-Portfolio/static/media/gamehub.32b3de84d3958c8eaea8.PNG",
+    "static/media/personal.jpg": "/challenge20-React-Portfolio/static/media/personal.11b2e670aa595ea43d1c.jpg",
+    "static/media/weatherdashboard.PNG": "/challenge20-React-Portfolio/static/media/weatherdashboard.be3e8580ea0330c2de3a.PNG",
     "index.html": "/challenge20-React-Portfolio/index.html",
     "main.c2cab247.css.map": "/challenge20-React-Portfolio/static/css/main.c2cab247.css.map",
-    "main.d9c48a31.js.map": "/challenge20-React-Portfolio/static/js/main.d9c48a31.js.map"
+    "main.e7fcd30a.js.map": "/challenge20-React-Portfolio/static/js/main.e7fcd30a.js.map"
   },
   "entrypoints": [
     "static/css/main.c2cab247.css",
-    "static/js/main.d9c48a31.js"
+    "static/js/main.e7fcd30a.js"
   ]
 }
