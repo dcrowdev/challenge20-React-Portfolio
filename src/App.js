@@ -1,13 +1,17 @@
 import React, { useState } from "react";
 
-import Header from './components/Header';
-import About from './components/About';
-import Project from './components/Project';
-import Resume from './components/Resume';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import Header from './components/Header/index';
+import About from './components/About/index';
+import Project from './components/Project/index';
+import Resume from './components/Resume/index';
+import Contact from './components/Contact/index';
+import Footer from './components/Footer/index';
+
 
 import projects from "./projects";
+
+// import { PDFDownloadLink } from "@react-18-pdf/renderer";
+// import { PDFViewer } from "@react-18-pdf/renderer";
 
 function App() {
 
@@ -29,7 +33,7 @@ function App() {
   }
 
   return (
-     <div style={{height: '100vh', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'space-evenly'}}>
+     <div style={{height: '100vh', display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
       <Header
         showAbout={() => setPageIndex(0)}
         showProjects={() => setPageIndex(1)}
