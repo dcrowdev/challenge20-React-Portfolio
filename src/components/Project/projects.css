@@ -1,0 +1,64 @@
+.project-container {
+    background-color: #cbfff5;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.map-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.custom-card {
+    width: 18rem;
+    background-color: #cbfff5 !important;
+    margin: 0 50px 10px 50px;
+    border-color: #0d6efd !important;
+    position: relative;
+    overflow: hidden;
+}
+
+.custom-card:hover {
+    cursor: pointer;
+}
+
+.custom-card:hover > .hover-wrapper.blur {
+    filter: blur(3px);
+}
+
+.custom-card > .hover-text.fade {
+    opacity: 0;
+}
+
+.custom-card:hover > .hover-text.fade {
+    opacity: 1;
+}
+
+.custom-card .hover-text {
+    position: absolute;
+    inset: 0;
+    font-size: 2rem;
+    padding: 1rem;
+    background: rgba(13, 110, 253, .4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.custom-card .hover-text,
+.custom-card .hover-wrapper {
+    transition: 200ms ease-in-out;
+}
+
+.card-spacing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.btn-index {
+    height: 10%;
+}

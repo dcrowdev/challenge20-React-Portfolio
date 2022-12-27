@@ -45,9 +45,9 @@ function App() {
           : pageIndex === 2 ? (<Resume />)
             : pageIndex === 3 ? (<Contact />)
       } */}
-      <div style={{height: '75vh', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'space-evenly'}}>
+      {/* <div style={{height: '75vh', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'space-evenly'}}> */}
       {renderPage()}
-      </div>
+      {/* </div> */}
       <Footer />
       </div>
   )
