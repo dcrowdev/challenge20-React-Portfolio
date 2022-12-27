@@ -7,7 +7,7 @@ import Resume from './components/Resume/index';
 import Contact from './components/Contact/index';
 import Footer from './components/Footer/index';
 
-
+import './App.css'
 import projects from "./projects";
 
 // import { PDFDownloadLink } from "@react-18-pdf/renderer";

@@ -1,12 +1,13 @@
 import React from "react";
+import './footer.css'
 
 function Footer() {
     return (
-        <div className="container-fluid mt-5">
-            <ul className="d-flex justify-content-center">
-                <li style={{ listStyleType: 'none', paddingRight: '30px', cursor: 'pointer', fontSize: '22px' }}><a href="https://twitter.com/dcrowdev">Twitter</a></li>
-                <li style={{ listStyleType: 'none', paddingRight: '30px', cursor: 'pointer', fontSize: '22px' }}><a href="https://github.com/dcrowdev">Github</a></li>
-                <li style={{ listStyleType: 'none', paddingRight: '30px', cursor: 'pointer', fontSize: '22px' }}><a href="https://www.linkedin.com/in/dylan-crowley-3974b8252/">LinkedIn</a></li>
+        <div className="footer-container">
+            <ul className="footer-ul">
+                <li className="footer-li"><a href="https://twitter.com/dcrowdev" target='_blank'><i class="fa-brands fa-twitter"></i></a></li>
+                <li className="footer-li"><a href="https://github.com/dcrowdev" target='_blank'><i class="fa-brands fa-github"></i></a></li>
+                <li className="footer-li"><a href="https://www.linkedin.com/in/dylan-crowley-3974b8252/" target='_blank'><i class="fa-brands fa-linkedin"></i></a></li>
             </ul>
         </div>
     )

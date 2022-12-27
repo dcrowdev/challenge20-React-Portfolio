@@ -1,0 +1,23 @@
+.about-container {
+    background-color: #cbfff5;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.headshot {
+    height: 300px;
+    width: 300px; 
+    border: 5px solid #0d6efd;
+    border-radius: 50%;
+}

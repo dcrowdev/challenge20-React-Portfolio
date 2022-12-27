@@ -9,11 +9,11 @@ const Header = ({ showAbout, showProjects, showResume, showContact }) => {
             <div className="name-header">
             <h2>Dylan</h2><h2 className="last-name">Crowley</h2>
             </div>
-            <ul>
-                <li onClick={showAbout}>About</li>
-                <li onClick={showProjects}>Projects</li>
-                <li onClick={showResume}>Resume</li>
-                <li onClick={showContact}>Contact Me</li>
+            <ul className="header-ul">
+                <li className="header-ul-li" onClick={showAbout}>About</li>
+                <li className="header-ul-li" onClick={showProjects}>Projects</li>
+                <li className="header-ul-li" onClick={showResume}>Resume</li>
+                <li className="header-ul-li" onClick={showContact}>Contact Me</li>
             </ul>
         </div>
     )
