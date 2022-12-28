@@ -3,6 +3,7 @@ import './resume.css'
 import MyResume from '../../images/ResumeScreenshot.PNG'
 import DLResume from '../../images/Resume.pdf'
 
+
 import htmlcssLogo from '../../images/html-css.png'
 import jsLogo from '../../images/JavaScript-logo.png'
 import reactLogo from '../../images/react-logo.png'
@@ -23,8 +24,10 @@ function Resume() {
                 <img className='logos' src={nodeLogo} alt="HTML/CSS logos" style={{ height: '100px', width: '100px' }} />
             </div>
             <div className="resume-btn-container">
-            <img src={MyResume} style={{ height: '70%', width: '50%' }} alt='Dylan Crowley Resume' />
-            <button className="btn btn-primary"><a style={{ color: 'white', fontWeight: 'bold' }} href={DLResume} target='_blank' rel="noreferrer" download>Download My Resume!</a></button>
+                <div className="zoom-wrapper" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '70%'}}>
+                    <img className="resume-image" src={MyResume} style={{ height: '100%', width: '90%', border: '2px solid', borderRadius: '5px' }} alt='Dylan Crowley Resume' />
+                    </div>
+                    <button className="btn btn-primary"><a style={{ color: 'white', fontWeight: 'bold' }} href={DLResume} target='_blank' rel="noreferrer" download>Download My Resume!</a></button>
             </div>
             <div className="right-side-logos">
                 <img className='logos' src={expressLogo} alt="HTML/CSS logos" style={{ height: '100px', width: '100px' }} />
