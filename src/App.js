@@ -10,8 +10,6 @@ import Footer from './components/Footer/index';
 import './App.css'
 import projects from "./projects";
 
-// import { PDFDownloadLink } from "@react-18-pdf/renderer";
-// import { PDFViewer } from "@react-18-pdf/renderer";
 
 function App() {
 
