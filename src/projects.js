@@ -6,7 +6,7 @@ const projects = [
     {
         id: 1,
         title: 'ShoCase',
-        description: 'ShoCase™ is a full stack web application that serves as a social media platform for sharing anime reccomendations through a playlist format. The user is able to make playlists of 4 animes, comment on other users playlists, and save playlists within their liked page. he project utilizes an Express backend, RESTFUL api, mySQL database, and a third party API.',
+        description: 'ShoCase™ is a full stack web application that serves as a social media platform for sharing anime reccomendations through a playlist format. The user is able to make playlists of 4 animes, comment on other users playlists, and save playlists within their liked page. The project utilizes an Express backend, RESTFUL api, mySQL database, and a third party API.',
         imagePath: shocase,
         imageAlt: 'Image of Shocase Application',
         link: 'https://shocase.herokuapp.com/',
@@ -31,7 +31,7 @@ const projects = [
         imageAlt: 'Image of US-Postal-Printing Application',
         link: 'https://us-postal-printing.herokuapp.com/',
         github: 'https://github.com/Mateo-Wallace/US-Postal-Printing',
-        technologies: 'HTML, CSS, JavaScript, Express.js, React.js, Material.ui, MongoDB + Mongoose'
+        technologies: 'HTML, CSS, JavaScript, Express.js, React.js, Material.ui, GraphQL, MongoDB + Mongoose'
     },
 ]
 

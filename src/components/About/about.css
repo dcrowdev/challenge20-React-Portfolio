@@ -6,6 +6,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 
 .left-side {
@@ -14,6 +15,7 @@
     align-items: center;
     justify-content: center;
     width: 50%;
+    animation: fadeInLeft 1s ease-in-out;
 }
 
 .headshot {
@@ -21,4 +23,14 @@
     width: 300px; 
     border: 5px solid #0d6efd;
     border-radius: 50%;
+    animation: fadeInLeft 2s ease-in-out;
+}
+
+@keyframes fadeInLeft {
+    0% {
+    transform: translateX(1000px)
+    }
+    100% {
+    transform: translateX(0)
+    }
 }

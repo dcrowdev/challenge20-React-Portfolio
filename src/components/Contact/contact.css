@@ -7,6 +7,7 @@
     justify-content: space-evenly;
     width: 100%;
     height: 100%;
+    overflow: hidden;
 }
 
 .contact-form {
@@ -18,4 +19,14 @@
     justify-content: space-between;
     width: 40%;
     height: 50%;
+    animation: fadeInDown 1s ease-in-out;
+}
+
+@keyframes fadeInDown {
+    0% {
+    transform: translateY(-1000px)
+    }
+    100% {
+    transform: translateY(0)
+    }
 }
