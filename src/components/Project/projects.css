@@ -21,10 +21,6 @@
     overflow: hidden;
 }
 
-.custom-card:hover {
-    cursor: pointer;
-}
-
 .custom-card:hover > .hover-wrapper.blur {
     filter: blur(3px);
 }

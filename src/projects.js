@@ -10,6 +10,7 @@ const projects = [
         imagePath: shocase,
         imageAlt: 'Image of Shocase Application',
         link: 'https://shocase.herokuapp.com/',
+        github: 'https://github.com/Bfunk54/ShoCase',
         technologies: 'MVC, Express.js, MySQL + Sequelize, Handlebars.js, Materialize.css'
     },
     {
@@ -19,6 +20,7 @@ const projects = [
         imagePath: gamehub,
         imageAlt: 'Image of Gamehub Application',
         link: 'https://sbullocks.github.io/Game-Hub/',
+        github: 'https://github.com/sbullocks/Game-Hub',
         technologies: 'HTML, CSS, JavaScript, JQuery, Fetch/Third-party APIs'
     },
     {
@@ -28,6 +30,7 @@ const projects = [
         imagePath: uspostalprinting,
         imageAlt: 'Image of US-Postal-Printing Application',
         link: 'https://us-postal-printing.herokuapp.com/',
+        github: 'https://github.com/Mateo-Wallace/US-Postal-Printing',
         technologies: 'HTML, CSS, JavaScript, Express.js, React.js, Material.ui, MongoDB + Mongoose'
     },
 ]

@@ -8,13 +8,16 @@ function Project({ projects }) {
             <div className="map-container">
             {projects.map((project) => (
             <div className="card custom-card" key={project.id}>
-                <p className="hover-text fade" style={{height: '100%', color: '#0B0B45', fontWeight: 'bold', zIndex: '3'}}><a href={project.link} target='_blank' rel="noreferrer" style={{textDecoration: 'none', height: '100%', color: '#0B0B45', fontWeight: 'bold', zIndex: '3'}}>Technologies Used: <br></br><br></br><br></br>{project.technologies}</a></p>
+                <div className="hover-text fade" style={{display: 'flex', flexDirection: 'column', height: '100%', justifyContent: 'space-evenly'}}>
+                <p style={{color: '#cbfff5', fontWeight: 'bold', zIndex: '3', fontSize: '20px'}}><b style={{color: '#cbfff5', fontSize: '45px', textDecoration: 'underline', textShadow: '-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black'}}>Technologies:</b><br></br><br></br><br></br><br></br>{project.technologies}</p>
+                <a style={{zIndex: '4'}} href={project.link} className="btn btn-primary btn-index" target='_blank' rel="noreferrer">Live application</a>
+                <a style={{zIndex: '4'}} href={project.github} className="btn btn-primary btn-index" target='_blank' rel="noreferrer">Github Repo</a>
+                </div>
                 <div className="hover-wrapper blur card-spacing">
                 <img src={project.imagePath} className="card-img-top" alt={project.imageAlt} />
                     <div className="card-body card-spacing">
                         <h5 className="card-title" style={{textDecoration: 'underline'}}>{project.title}</h5>
                         <p className="card-text" style={{fontSize: 'small'}}>{project.description}</p>
-                        <a href={project.link} className="btn btn-primary btn-index" target='_blank' rel="noreferrer">Live application!</a>
                     </div>
                     </div>
             </div>
