@@ -40,6 +40,8 @@
 
 .logos {
 	animation: rotateAnimation 5s linear infinite;
+    height: 100px;
+    width: 100px;
 }
 
 .zoom-wrapper:hover {
@@ -66,5 +68,26 @@
     }
     100% {
     transform: translateX(0)
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .left-side-logos {
+        flex-direction: row;
+    }
+    .right-side-logos {
+        flex-direction: row;
+    }
+    .resume-container {
+        overflow: auto;
+        flex-direction: column;
+    }
+    .logos {
+        height: 50px;
+        width: 50px;
+        margin: 20px;
+    }
+    .resume-btn-container {
+        height: 300%;
     }
 }

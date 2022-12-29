@@ -5,6 +5,9 @@
     width: 100%;
     text-align: center;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .map-container {
@@ -72,5 +75,26 @@
     }
     100% {
     transform: translateX(0)
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    .map-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .project-container {
+        overflow: auto;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .custom-card {
+        width: 10rem;
     }
 }

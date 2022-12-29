@@ -27,25 +27,22 @@ function Contact() {
             });
     };
 
-
-
-
-    return (
+     return (
         <div className="contact-container">
             <h1 style={{ fontSize: '60px' }}>Contact Me!</h1>
             <form className='contact-form' ref={form} onSubmit={sendEmail}>
-                <div style={{display: 'flex', justifyContent: 'space-between'}}>
-                    <div style={{display: 'flex', flexDirection: 'column', width: '70%'}}>
+                <div className='top-form'>
+                <i className="fa-solid fa-envelope custom-envelope"></i>
+                    <div className='top-form-inputs'>
                         <label>Name</label>
-                        <input type="text" name="user_name" style={{ width: '100%' }} />
+                        <input type="text" name="user_name" className='text-inputs' />
                         <label>Email</label>
-                        <input type="email" name="user_email" style={{ width: '100%' }} />
+                        <input type="email" name="user_email" className='text-inputs' />
                     </div>
-                    <i className="fa-solid fa-envelope" style={{ fontSize: '700%', paddingRight: '2%', alignSelf: 'center'}}></i>
                 </div>
                 <div style={{display: 'flex', flexDirection: 'column', width: '100%'}}>
                 <label>Message</label>
-                <textarea name="message" style={{ height: '100px', color: 'black', marginBottom: '2%' }} />
+                <textarea name="message" className='message-text' />
                 <input className="btn btn-primary" type="submit" value="Send" />
                 </div>
             </form>

@@ -18,10 +18,10 @@ function Resume() {
     return (
         <div className="resume-container">
             <div className="left-side-logos">
-                <img className='logos' src={htmlcssLogo} alt="HTML/CSS logos" style={{ height: '100px', width: '100px' }} />
-                <img className='logos' src={jsLogo} alt="HTML/CSS logos" style={{ height: '100px', width: '100px' }} />
-                <img className='logos' src={reactLogo} alt="HTML/CSS logos" style={{ height: '100px', width: '100px' }} />
-                <img className='logos' src={nodeLogo} alt="HTML/CSS logos" style={{ height: '100px', width: '100px' }} />
+                <img className='logos' src={htmlcssLogo} alt="HTML/CSS logos" />
+                <img className='logos' src={jsLogo} alt="HTML/CSS logos" />
+                <img className='logos' src={reactLogo} alt="HTML/CSS logos" />
+                <img className='logos' src={nodeLogo} alt="HTML/CSS logos" />
             </div>
             <div className="resume-btn-container">
                 <div className="zoom-wrapper" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '70%'}}>
@@ -30,10 +30,10 @@ function Resume() {
                     <button className="btn btn-primary"><a style={{ color: 'white', fontWeight: 'bold' }} href={DLResume} target='_blank' rel="noreferrer" download>Download My Resume!</a></button>
             </div>
             <div className="right-side-logos">
-                <img className='logos' src={expressLogo} alt="HTML/CSS logos" style={{ height: '100px', width: '100px' }} />
-                <img className='logos' src={mongoLogo} alt="HTML/CSS logos" style={{ height: '100px', width: '110px' }} />
-                <img className='logos' src={mysqlLogo} alt="HTML/CSS logos" style={{ height: '100px', width: '100px' }} />
-                <img className='logos' src={gqlLogo} alt="HTML/CSS logos" style={{ height: '110px', width: '130px' }} />
+                <img className='logos' src={expressLogo} alt="HTML/CSS logos" />
+                <img className='logos' src={mongoLogo} alt="HTML/CSS logos" />
+                <img className='logos' src={mysqlLogo} alt="HTML/CSS logos" />
+                <img className='logos' src={gqlLogo} alt="HTML/CSS logos" />
             </div>
         </div>
     )
