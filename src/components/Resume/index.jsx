@@ -1,7 +1,7 @@
 import React from "react";
 import './resume.css'
 import MyResume from '../../images/ResumeScreenshot.PNG'
-import DLResume from '../../images/Resume.pdf'
+import DLResume from '../../images/Resume2.pdf'
 
 
 import htmlcssLogo from '../../images/html-css.png'
