@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.2bf3cec6.chunk.css",
+    "main.css": "/static/css/main.72714a59.chunk.css",
     "main.js": "/static/js/main.ed40a427.chunk.js",
     "main.js.map": "/static/js/main.ed40a427.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b3b800f1.js",
@@ -10,7 +10,7 @@
     "static/js/2.eff7257e.chunk.js.map": "/static/js/2.eff7257e.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.f26e749f.chunk.css.map": "/static/css/2.f26e749f.chunk.css.map",
-    "static/css/main.2bf3cec6.chunk.css.map": "/static/css/main.2bf3cec6.chunk.css.map",
+    "static/css/main.72714a59.chunk.css.map": "/static/css/main.72714a59.chunk.css.map",
     "static/js/2.eff7257e.chunk.js.LICENSE.txt": "/static/js/2.eff7257e.chunk.js.LICENSE.txt",
     "static/media/JavaScript-logo.266bd9fb.png": "/static/media/JavaScript-logo.266bd9fb.png",
     "static/media/MySQL-Logo.2f2132d4.png": "/static/media/MySQL-Logo.2f2132d4.png",
@@ -28,7 +28,7 @@
     "static/js/runtime-main.b3b800f1.js",
     "static/css/2.f26e749f.chunk.css",
     "static/js/2.eff7257e.chunk.js",
-    "static/css/main.2bf3cec6.chunk.css",
+    "static/css/main.72714a59.chunk.css",
     "static/js/main.ed40a427.chunk.js"
   ]
 }
