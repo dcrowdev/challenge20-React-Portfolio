@@ -35,14 +35,14 @@ function Contact() {
                 <i className="fa-solid fa-envelope custom-envelope"></i>
                     <div className='top-form-inputs'>
                         <label>Name</label>
-                        <input type="text" name="user_name" className='text-inputs' />
+                        <input type="text" name="user_name" className='text-inputs' required />
                         <label>Email</label>
-                        <input type="email" name="user_email" className='text-inputs' />
+                        <input type="email" name="user_email" className='text-inputs' required />
                     </div>
                 </div>
                 <div style={{display: 'flex', flexDirection: 'column', width: '100%'}}>
                 <label>Message</label>
-                <textarea name="message" className='message-text' />
+                <textarea name="message" className='message-text' required />
                 <input className="btn btn-primary" type="submit" value="Send" />
                 </div>
             </form>
