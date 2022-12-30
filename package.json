@@ -1,8 +1,8 @@
 {
   "name": "react-portfolio",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "http://dcrowdev.tech",
+  "private": false,
+  "homepage": "http://dcrowdev.github.io/challenge20-React-Portfolio",
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
     "@react-18-pdf/renderer": "^2.3.4",
