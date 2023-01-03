@@ -1,13 +1,13 @@
 .about-container {
-    /* background-color: #cbfff5; */
-    background-image: url('../../images/background7.jpg');
+    background-image: url('../../images/background1.jpg');
+    background-size: cover;
     height: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 .left-side {
@@ -17,28 +17,30 @@
     justify-content: center;
     width: 50%;
     animation: fadeInLeft 1s ease-in-out;
+    background-color: rgba(255, 147, 152, .4);
+    margin-right: 30px;
 }
 
 .headshot {
     height: 300px;
     width: 300px; 
-    border: 5px solid #0d6efd;
-    border-radius: 50%;
+    border: 2px solid #000;
     animation: fadeInLeft 2s ease-in-out;
+    box-shadow: 7px 7px 20px 1px #FF9398;
 }
 
 @keyframes fadeInLeft {
     0% {
-    transform: translateX(1000px)
+    transform: translateX(1000px);
     }
     100% {
-    transform: translateX(0)
+    transform: translateX(0);
     }
 }
 
-@media screen and (max-width: 1111px) {
+@media screen and (max-width: 1919px) {
     .about-container {
-        overflow: auto;
+        overflow: scroll;
     }
 }
 

@@ -1,5 +1,5 @@
 .header-background {
-    background-color: #82fff3;
+    background: linear-gradient(0.25turn, #FF9398, #fdc8c9);
 }
 
 .name-header {
@@ -7,7 +7,7 @@
     position: relative;
 }
 
-.name-header::after {
+/* .name-header::after {
     content: 'dcrowdev';
     position: absolute;
     bottom: 0;
@@ -22,11 +22,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
 
-.name-header:hover::after {
+/* .name-header:hover::after {
     transform: scaleX(1);
-}
+} */
 
 
 /* .name-header:hover {
@@ -67,12 +67,15 @@
     cursor: pointer; 
     font-size: 33px;
     position: relative;
+    border: 1px solid black;
+    padding: 1px;
 }
 
 .header-ul-li:hover {
     font-size: 33px;
-    color: #0a58ca;
+    color: #fff;
     text-decoration: none;
+    background-color: #000;
 }
 
 .header-ul-li::after {
