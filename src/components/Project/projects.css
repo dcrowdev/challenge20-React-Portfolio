@@ -1,13 +1,15 @@
 .project-container {
     /* background-color: #cbfff5; */
-    background-image: url('../../images/background7.jpg');
+    background: url('../../images/background4.jpg');
+    background-size: cover;
     height: 100%;
     width: 100%;
     text-align: center;
-    /* overflow: hidden; */
+    overflow: hidden;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
@@ -17,11 +19,15 @@
     justify-content: center;
 }
 
+.title-map {
+    background-color: rgba(255, 147, 152, .4);
+}
+
 .custom-card {
     width: 18rem;
-    background-color: #cbfff5 !important;
+    background: linear-gradient(0.25turn, #fc6f76, #fadada) !important;
     margin: 0 50px 10px 50px;
-    border-color: #0d6efd !important;
+    border-color: #000 !important;
     position: relative;
     overflow: hidden;
     animation: fadeInUp 1s ease-in-out;
@@ -44,7 +50,7 @@
     inset: 0;
     font-size: 2rem;
     padding: 1rem;
-    background: rgba(13, 110, 253, .4);
+    background: #f3cfcf;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -70,9 +76,60 @@
     line-height: 1.2;
 }
 
+.fade-in-animation {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #FF9398;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    animation: fadeInUp 1s ease-in-out;
+}
+
+.fade-in-animation:hover {
+    color: #FF9398;
+    background-color: #000;
+}
+
+.left-side-logos {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    animation: fadeInUp 1s ease-in-out;
+}
+
+.right-side-logos {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    animation: fadeInUp 1s ease-in-out;
+}
+
+.logos {
+	animation: rotateAnimation 5s linear infinite;
+    height: 100px;
+    width: 100px;
+}
+
+@keyframes rotateAnimation {
+	0% {transform: rotateY(0deg);}
+    16% {transform: rotateY(72deg);}
+    32% {transform: rotateY(144deg);}
+    48% {transform: rotateY(216deg);}
+	64% {transform: rotateY(288deg);}
+    80% {transform: rotateY(360deg);}
+    100% {transform: rotateY(360deg);}
+}
+
 @keyframes fadeInUp {
     0% {
-    transform: translateY(1000px)
+    transform: translateY(500px)
     }
     100% {
     transform: translateX(0)
