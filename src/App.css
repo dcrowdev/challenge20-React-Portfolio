@@ -6,9 +6,18 @@
     font-family: 'Titillium Web', sans-serif;
 }
 
+/* body {
+    background-image: url('./images/background1.jpg');
+    background-size: cover;
+} */
+
 p {
     font-family: sans-serif;
     font-weight: 600;
     letter-spacing: .08rem;
     /* text-shadow: -1px 0 #FF9398, 0 1px #FF9398, 1px 0 #FF9398, 0 -1px #FF9398; */
+}
+
+i {
+    color: #000;
 }
