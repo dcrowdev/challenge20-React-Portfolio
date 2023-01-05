@@ -6,10 +6,20 @@
     font-family: 'Titillium Web', sans-serif;
 }
 
-/* body {
+.bgOne {
     background-image: url('./images/background1.jpg');
     background-size: cover;
-} */
+}
+
+.bgTwo {
+    background-image: url('./images/background4.jpg');
+    background-size: cover;
+}
+
+.bgThree {
+    background-image: url('./images/background5.jpg');
+    background-size: cover;
+}
 
 p {
     font-family: sans-serif;

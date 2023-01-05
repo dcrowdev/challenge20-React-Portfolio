@@ -29,6 +29,7 @@ function Contact() {
 
      return (
         <div className="contact-container">
+            <div className="contact-wrapper">
             <h1 style={{ fontSize: '60px' }}>Contact Me!</h1>
             <form className='contact-form' ref={form} onSubmit={sendEmail}>
                 <div className='top-form'>
@@ -52,7 +53,7 @@ function Contact() {
                     <Modal.Title>Message Successfully Sent!</Modal.Title>
                 </Modal.Header>
             </Modal>
-
+            </div>
         </div>
     )
 }

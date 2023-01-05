@@ -1,26 +1,22 @@
 .project-container {
-    /* background-color: #cbfff5; */
-    background: url('../../images/background4.jpg');
-    background-size: cover;
     height: 100%;
     width: 100%;
-    text-align: center;
     overflow: hidden;
+    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
     flex-wrap: wrap;
 }
 
 .map-container {
-    width: 100%;
     display: flex;
     justify-content: center;
 }
 
 .title-map {
     background-color: rgba(255, 147, 152, .4);
+    margin-bottom: 3%;
 }
 
 .custom-card {
@@ -94,7 +90,7 @@
 }
 
 .left-side-logos {
-    height: 100%;
+    height: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -103,7 +99,7 @@
 }
 
 .right-side-logos {
-    height: 100%;
+    height: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -132,7 +128,7 @@
     transform: translateY(500px)
     }
     100% {
-    transform: translateX(0)
+    transform: translateY(0)
     }
 }
 

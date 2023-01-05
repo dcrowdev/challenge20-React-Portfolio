@@ -19,6 +19,7 @@ function Project({ projects }) {
                 <img className='logos' src={reactLogo} alt="HTML/CSS logos" />
                 <img className='logos' src={nodeLogo} alt="HTML/CSS logos" />
             </div>
+      
       <div className='title-map'>
         <h1
           style={{
