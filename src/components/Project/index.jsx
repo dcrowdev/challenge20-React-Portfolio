@@ -19,13 +19,13 @@ function Project({ projects }) {
                 <img className='logos' src={reactLogo} alt="HTML/CSS logos" />
                 <img className='logos' src={nodeLogo} alt="HTML/CSS logos" />
             </div>
-      
+      <div className='mid-container'>
       <div className='title-map'>
         <h1
           style={{
             textAlign: 'center',
-            marginBottom: '3%',
-            marginTop: '2%',
+            // marginBottom: '3%',
+            // marginTop: '2%',
             fontSize: '60px',
             display: 'inline-block',
           }}
@@ -113,7 +113,7 @@ function Project({ projects }) {
                   >
                     {project.title}
                   </h5>
-                  <p className='card-text' style={{ fontSize: 'small' }}>
+                  <p style={{fontSize: '11px'}}>
                     {project.description}
                   </p>
                 </div>
@@ -123,6 +123,7 @@ function Project({ projects }) {
         </div>
       </div>
       <a className='fade-in-animation' href={DLResume} target='_blank' rel="noreferrer" download>Download My Resume!</a>
+      </div>
       <div className="right-side-logos">
                 <img className='logos' src={expressLogo} alt="HTML/CSS logos" />
                 <img className='logos' src={mongoLogo} alt="HTML/CSS logos" />

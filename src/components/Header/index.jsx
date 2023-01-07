@@ -26,14 +26,13 @@ const Header = ({ showAbout, showProjects, showContact }) => {
             </ul>
 
             <nav className="navBar">
-                <button onClick={handleToggle}>{mobileOpen ? <i className="fa-solid fa-x header-icons" style={{color: '#82fff3'}}></i> : <i className="fa-solid fa-bars header-icons"></i>}</button>
+                <button onClick={handleToggle}>{mobileOpen ? <i className="fa-solid fa-x header-icons" style={{color: '#000'}}></i> : <i className="fa-solid fa-bars header-icons"></i>}</button>
                 <ul className={`menuNav ${mobileOpen ? " showMenu" : ""}`}>
                     <li className="header-ul-li menustyles" onClick={() => {showAbout(); closeMenu()}}>About</li>
                     <li className="header-ul-li menustyles" onClick={() => {showProjects(); closeMenu()}}>Projects</li>
                     <li className="header-ul-li menustyles" onClick={() => {showContact(); closeMenu()}}>Contact Me</li>
                 </ul>
             </nav>
-
         </div>
     )
 }
