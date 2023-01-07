@@ -1,5 +1,5 @@
 .header-background {
-    background-color: #82fff3;
+    background: linear-gradient(0.25turn, rgba(255, 147, 152, 0.5), rgba(253, 200, 201, 0.5));
 }
 
 .name-header {
@@ -14,9 +14,8 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: #82fff3;
     transform: scaleX(0);
-    transition: transform .3s ease-in-out;
+    transition: transform .1s ease-in-out;
     font-size: 55px;
     font-weight: bold;
     display: flex;
@@ -28,18 +27,25 @@
     transform: scaleX(1);
 }
 
-
-/* .name-header:hover {
-    animation: fadeInRight 2s ease-in-out;
-} */
-
-/* .name-header:hover::after {
-    content: 'dcrowdev';
-} */
-
 .name-header h2 {
     font-size: 55px;
     font-weight: bold;
+}
+
+.name-header:hover .first-name::after {
+    color: transparent;
+}
+
+.name-header:hover .last-name::after {
+    color: transparent;
+}
+
+.first-name::after {
+    content: 'Dylan';
+}
+
+.last-name::after {
+    content: 'Crowley';
 }
 
 .title {
@@ -67,25 +73,34 @@
     cursor: pointer; 
     font-size: 33px;
     position: relative;
+    border: 1px solid black;
+    padding: 1px;
+    z-index: 1;
+    overflow: hidden;
 }
 
 .header-ul-li:hover {
-    font-size: 33px;
-    color: #0a58ca;
+    color: #FF9398;
     text-decoration: none;
 }
 
-.header-ul-li::after {
-    content: '';
+.header-ul-li::before {
+    content: "";
     position: absolute;
-    bottom: 0;
+    background: #000;
+    top: 100%;
+    right: 0;
     left: 0;
+    bottom: 0;
+    height: 100%;
     width: 100%;
-    height: 1px;
-    background: #0a58ca;
-    transform: scaleX(0);
-    transition: transform 0.6s ease-in-out;
-}
+    z-index: -1;
+    transition: top .5s ease-in-out;
+  }
+
+.header-ul-li:hover:before {
+    top: 0;
+  }
 
 .header-ul-li:hover::after {
     transform: scaleX(1);
@@ -117,7 +132,7 @@
     list-style: none;
     position: fixed;
     top: 0;
-    background: #0a58ca;
+    background: rgb(253, 217, 219);;
     right: -10%;
     bottom: 0;
     height: 100vh;
@@ -133,11 +148,12 @@
   }
   
   .menustyles {
+    border: none;
     display: block;
-    padding-top: 50px;
+    margin-top: 50px;
     text-transform: uppercase;
     font-weight: bold;
-    color: #82fff3;
+    color: #000;
   }
   
   .menuNav li:first-child {
