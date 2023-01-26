@@ -1,6 +1,6 @@
 import React from 'react';
 import './projects.css';
-import DLResume from '../../images/Resume4.pdf'
+import DLResume from '../../images/Resume5.pdf'
 import htmlcssLogo from '../../images/html-css.png'
 import jsLogo from '../../images/JavaScript-logo.png'
 import reactLogo from '../../images/react-logo.png'
